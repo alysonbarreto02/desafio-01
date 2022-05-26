@@ -15,14 +15,14 @@ export default function Menu() {
         </div>
 
         <div className="w-3/12 h-16 flex">
-          <div className="my-auto w-56 h-10 rounded-full bg-white flex">
-            <input type="text" className="my-auto mx-auto w-40" />
+          <div className="my-auto w-56 h-10 rounded-full bg-gray-100 flex">
+            <input type="text" placeholder="Search..." className="my-auto mx-auto w-40 bg-gray-100" />
             <button className="mr-2"><FiSearch /></button>
           </div>
 
           <div className="flex">
             <button className="my-auto mx-auto ml-1 mr-1 bg-transparent rounded-xl w-9 h-9 flex">
-              <div className="my-auto mx-auto">
+              <div className="my-auto mx-auto text-gray-100 text-xl">
                 <BsFillBellFill />
               </div>
             </button>

@@ -1,5 +1,6 @@
 import { BsInstagram } from "react-icons/bs";
 import { FiMail, FiTwitter } from "react-icons/fi";
+import Tasks from "../Tasks/Tasks";
 
 export default function Profile() {
     return (
@@ -20,23 +21,23 @@ export default function Profile() {
                 </div>
 
                 <div className="w-4/12 h-56 my-auto flex border-r">
-                    <div className="h-10">
+                    <div className="h-10 absolute">
                         <h3 className="ml-3 font-bold">Contact details</h3>
                     </div>
                     <div className="flex">
-                        <div className="flex-col my-auto mx-auto  ">
+                        <div className="flex-col my-auto ml-4    ">
 
-                            <div className="flex mr-1">
+                            <div className="flex mr-1 whitespace-nowrap">
                                 <div className='mt-1 mr-2'><FiMail /></div>
                                 <p> alysonkevin@left4code.com</p>
                             </div>
 
-                            <div className="flex mr-28 ">
+                            <div className="flex mr-28 whitespace-nowrap">
                                 <div className='mt-1 mr-2'><BsInstagram /></div>
                                 <p> Alyson Kevin</p>
                             </div>
 
-                            <div className="flex mr-28">
+                            <div className="flex mr-28 whitespace-nowrap">
                                 <div className='mt-1 mr-2'><FiTwitter /></div>
                                 <p> Alyson Kevin</p>
                             </div>
@@ -46,6 +47,7 @@ export default function Profile() {
                 </div>
                 
             </div>
+            <Tasks />
         </div>
     )
 }
