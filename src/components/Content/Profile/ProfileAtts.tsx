@@ -1,5 +1,6 @@
 import { BsInstagram } from "react-icons/bs";
 import { FiMail, FiTwitter } from "react-icons/fi";
+import Activities from "../Activities/Activities";
 import Tasks from "../Tasks/Tasks";
 
 export default function Profile() {
@@ -47,7 +48,7 @@ export default function Profile() {
                 </div>
                 
             </div>
-            <Tasks />
+            <Activities/>
         </div>
     )
 }

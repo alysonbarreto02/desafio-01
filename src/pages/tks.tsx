@@ -1,7 +1,13 @@
-import Tasks from "../components/Content/Tasks/Tasks";
+import MenuAside from '../components/Content/MenuAside/MenuAside'
+import ProfileAtts from '../components/Content/Profile/ProfileAtts'
+import  Header  from '../components/Header/Header'
 
-export default function Tks(){
-    return(
-        <Tasks />
-    )
+export default function Home() {
+  return (
+    <div className='flex'>
+      <Header />
+      <MenuAside />
+      <ProfileAtts />
+    </div>
+  )
 }
