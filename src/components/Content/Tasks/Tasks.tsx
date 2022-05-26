@@ -9,7 +9,7 @@ export default function Tasks() {
 
             <div className="flex w-full h-12 bg-orange-300">
                 <div className="justify-start ml-7 flex items-center">
-                    <input type="checkbox" className="mt-1" />
+                    <input type="checkbox" className="mt-1"/>
                     <h2 className="font-bold ml-2">Escovar os dentes</h2>
                 </div>
                 <div className="mx-auto font-bold flex">
@@ -22,7 +22,7 @@ export default function Tasks() {
 
             <div className="flex w-full h-12 bg-orange-300">
                 <div className="justify-start ml-7 flex items-center">
-                    <input type="checkbox" className="mt-1" />
+                    <input type="checkbox" className="mt-1"/>
                     <h2 className="font-bold ml-2">Escovar os dentes</h2>
                 </div>
                 <div className="mx-auto font-bold flex">
@@ -35,7 +35,7 @@ export default function Tasks() {
 
             <div className="flex w-full h-12 bg-orange-300">
                 <div className="justify-start ml-7 flex items-center">
-                    <input type="checkbox" className="mt-1" />
+                    <input type="checkbox" className="mt-1"/>
                     <h2 className="font-bold ml-2">Escovar os dentes</h2>
                 </div>
                 <div className="mx-auto font-bold flex">
@@ -48,7 +48,7 @@ export default function Tasks() {
 
             <div className="flex w-full h-12 bg-orange-300">
                 <div className="justify-start ml-7 flex items-center">
-                    <input type="checkbox" className="mt-1" />
+                    <input type="checkbox" className="mt-1"/>
                     <h2 className="font-bold ml-2">Escovar os dentes</h2>
                 </div>
                 <div className="mx-auto font-bold flex">
@@ -61,7 +61,7 @@ export default function Tasks() {
 
             <div className="flex w-full h-12 bg-orange-300">
                 <div className="justify-start ml-7 flex items-center">
-                    <input type="checkbox" className="mt-1" />
+                    <input type="checkbox" className="mt-1"/>
                     <h2 className="font-bold ml-2">Escovar os dentes</h2>
                 </div>
                 <div className="mx-auto font-bold flex">
@@ -72,9 +72,9 @@ export default function Tasks() {
                 </div>
             </div>
 
-            <div className="flex w-full h-12 bg-orange-300">
+            <div className="flex w-full h-12 bg-orange-300 hover:siz">
                 <div className="justify-start ml-7 flex items-center">
-                    <input type="checkbox" className="mt-1" />
+                    <input type="checkbox" className="mt-1"/>
                     <h2 className="font-bold ml-2">Escovar os dentes</h2>
                 </div>
                 <div className="mx-auto font-bold flex">
@@ -85,9 +85,7 @@ export default function Tasks() {
                 </div>
             </div>
 
-            <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ...">
-                Save changes
-            </button>
+            
         </div>
     )
 }
