@@ -5,7 +5,7 @@ export default function Menu() {
   return (
     
       <div className="flex">
-        <div className="w-11/12 h-16 bg-cyan-900 rounded-xl mt-2 flex absolute mx-14">
+        <div className="w-11/12 h-16 bg-cyan-900 rounded-xl mt-2 flex absolute mx-14 shadow-md shadow-cyan-800 sha">
           <div className="w-2/12 h-12 border-r flex my-auto text-white ml-3">
             <img className="my-auto" src="assets/enigma.png" alt="logo" />
             <h1 className="my-auto ml-1  font-bold">comigo</h1>
