@@ -28,7 +28,7 @@ export default function Menu() {
                 <BsFillBellFill />
               </div>
             </button>
-            <button><img className="w-9 h-9 rounded-full my-auto mx-auto" src="assets/foto.png" alt="" /></button>
+            <button><img className="w-9 h-9 rounded-full my-auto mx-auto" src="assets/romario.png" alt="" /></button>
           </div>
 
         </div>
