@@ -4,7 +4,7 @@ export default function Tasks() {
             <div>
             <p className="ml-6 flex font-semibold text-2xl my-4 whitespace-nowrap absolute">Tasks</p>
             </div>
-            <div className="w-full mt-16 h-96 mx-6 bg-gray-100 flex-col rounded-lg">
+            <div className="w-full mt-14 h-96 mx-6 bg-gray-100 flex-col">
                 <div className="flex w-full h-12 bg-white relative hover:bottom-1 hover:shadow hover:shadow-bg-gray-100 border-y rounded-lg ">
                     <div className="justify-start ml-7 flex items-center ">
                         <input type="checkbox" className="mt-1" />

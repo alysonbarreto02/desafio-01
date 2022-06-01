@@ -5,7 +5,7 @@ export default function Activities() {
             <div>
                 <p className="ml-6 flex font-semibold text-2xl my-4 whitespace-nowrap absolute">Activities</p>
             </div>
-            <div className="w-full h-full mt-16 mx-6 bg-white rounded-lg flex box-border mb-48">
+            <div className="w-full h-full mt-14 mx-6 bg-white rounded-lg flex box-border mb-48">
                 <div className="w-11/12 h-full flex-col mx-auto ">
                     <div className="w-80 h-24 px mx-auto mt-7 flex">
                         <div className="w-14 h-full">
@@ -18,9 +18,12 @@ export default function Activities() {
                             </div>
                             <div className="w-7 h-24 border-r-2 border-slate-300"></div>
                         </div>
-                        <div className="w-full h-full flex">
-                            <img src="assets/user.jpg" alt="user" className="h-10 wh10 rounded-full my-auto text" />
-                            <p className="text-gray-600 my-auto ml-3 text-sm">Lorem ipsum pisicing eli.</p>
+                        <div className="w-full h-full flex-col">
+                            <p className="text-gray-600 ml-3 mt-1 text-sm">Lorem ipsum peliasdads abacaxigrande laranja.</p>
+                            <div className="flex items-center mt-2 ml-2">
+                                <img src="assets/user.jpg" alt="user" className="h-4 rounded-full mt-2" />
+                                <p className="text-gray-600 mt-1 text-xs ml-2">Taldo Antonio</p>
+                            </div>
                         </div>
                     </div>
 
@@ -35,9 +38,12 @@ export default function Activities() {
                             </div>
                             <div className="w-7 h-24 border-r-2 border-slate-300"></div>
                         </div>
-                        <div className="w-full h-full flex">
-                            <img src="assets/user.jpg" alt="user" className="h-10 wh10 rounded-full my-auto" />
-                            <p className="text-gray-600 my-auto ml-3 text-sm">Lorem ipsum pisicing eli.</p>
+                        <div className="w-full h-full flex-col">
+                            <p className="text-gray-600 ml-3 mt-1 text-sm">Lorem ipsum peliasdads abacaxigrande laranja.</p>
+                            <div className="flex items-center mt-2 ml-2">
+                                <img src="assets/user.jpg" alt="user" className="h-4 rounded-full mt-2" />
+                                <p className="text-gray-600 mt-1 text-xs ml-2">Taldo Antonio</p>
+                            </div>
                         </div>
                     </div>
 
@@ -52,9 +58,12 @@ export default function Activities() {
                             </div>
                             <div className="w-7 h-24 border-r-2 border-slate-300"></div>
                         </div>
-                        <div className="w-full h-full flex">
-                            <img src="assets/user.jpg" alt="user" className="h-10 wh10 rounded-full my-auto" />
-                            <p className="text-gray-600 my-auto ml-3 text-sm">Lorem ipsum pisicing eli.</p>
+                        <div className="w-full h-full flex-col">
+                            <p className="text-gray-600 ml-3 mt-1 text-sm">Lorem ipsum peliasdads abacaxigrande laranja.</p>
+                            <div className="flex items-center mt-2 ml-2">
+                                <img src="assets/user.jpg" alt="user" className="h-4 rounded-full mt-2" />
+                                <p className="text-gray-600 mt-1 text-xs ml-2">Taldo Antonio</p>
+                            </div>
                         </div>
                     </div>
 
@@ -68,9 +77,12 @@ export default function Activities() {
                                 <img src="assets/white.png" alt="ball" className="mx-auto rounded-full h-4 w-4 border-4 border-red-400 mt-1" />
                             </div>
                         </div>
-                        <div className="w-full h-full flex">
-                            <img src="assets/user.jpg" alt="user" className="h-10 wh10 rounded-full my-auto" />
-                            <p className="text-gray-600 my-auto ml-3 text-sm">Lorem ipsum pisicing eli.</p>
+                        <div className="w-full h-full flex-col">
+                            <p className="text-gray-600 ml-3 mt-1 text-sm">Lorem ipsum peliasdads abacaxigrande laranja.</p>
+                            <div className="flex items-center mt-2 ml-2">
+                                <img src="assets/user.jpg" alt="user" className="h-4 rounded-full mt-2" />
+                                <p className="text-gray-600 mt-1 text-xs ml-2">Taldo Antonio</p>
+                            </div>
                         </div>
                     </div>
 
