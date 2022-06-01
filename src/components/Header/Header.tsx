@@ -13,7 +13,6 @@ export default function Menu() {
     
 
         <div className="w-7/12 h-16 flex">
-          <p className="my-auto ml-4 text-white"><a href="">Application</a> Dashboard</p>
         </div>
 
         <div className="w-3/12 h-16 flex">
