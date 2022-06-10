@@ -6,8 +6,8 @@ import { AiOutlineCalendar, AiOutlineFile } from "react-icons/ai";
 
 export default function MenuAside() {
     return (
-        <div className="flex">
-            <div className="w-64 h-full bg-gray-200">
+        <div className="flex ">
+            <div className="w-64 ">
 
                 <div className="w-64 h-24"></div>
 

@@ -1,94 +1,48 @@
+import ItemActivities from "./ItemActivities";
+
 export default function Activities() {
-
+    let activities = [{
+        user: 'Israel Sales',
+        type: "error",
+        text: "Em alguns clubes, é verdade, fiz um acordo que me permitia ir pra noite. Mas eu nunca faltava em treino. Quero deixar isso bem claro.",
+        time: "alguma coisa",
+    },
+    {
+        user: 'André Correa',
+        type: "normal",
+        text: "Quando voltei a jogar no Brasil, disse a todos os presidentes: “Olha, tenho dificuldade para acordar cedo,",
+        time: "alguma coisa",
+    },
+    {
+        user: 'Alyson Barreto',
+        type: "error",
+        text: "então vou treinar à tarde”. Eles nem precisaram escrever nada no papel. Cara, falavam",
+        time: "alguma coisa",
+    },
+    {
+        user: 'Eva Angélica',
+        type: "warning",
+        text: "“Ah, Romário não dorme...” Dorme! Ele só acorda mais tarde. “Romário não treina...” Treina! Mas não às 9h da manhã.",
+        time: "alguma coisa",
+    },
+    {
+        user: 'Eva Angélica',
+        type: "error",
+        text: "Se tinha jogo domingo, eu saía na sexta-feira. Tá, pode ser que tenha acontecido algumas vezes, mas foi uma em dez, no máximo. E, olha, eu nunca fumei. Graças a Deus,",
+        time: "alguma coisa",
+    }]
     return (
-        <div className="flex w-4/12 h-96">
+        <div className="flex-col w-4/12 h-96 mr-6">
             <div>
-                <p className="ml-6 flex font-semibold text-2xl my-4 whitespace-nowrap absolute">Activities</p>
+                <p className="ml-6 flex font-semibold text-2xl my-3 whitespace-nowrap">Activities</p>
             </div>
-            <div className="w-full h-full mt-14 mx-6 bg-white rounded-lg flex box-border mb-48">
-                <div className="w-11/12 h-full flex-col mx-auto ">
-                    <div className="w-80 h-24 px mx-auto mt-7 flex">
-                        <div className="w-14 h-full">
-                            <p className="font-semibold">8:40</p>
-                        </div>
-
-                        <div className="flex-col">
-                            <div className="w-14 h-4 flex">
-                                <img src="assets/white.png" alt="ball" className="mx-auto rounded-full h-4 w-4 border-4 border-red-400 mt-1" />
-                            </div>
-                            <div className="w-7 h-24 border-r-2 border-slate-300"></div>
-                        </div>
-                        <div className="w-full h-full flex-col">
-                            <p className="text-gray-600 ml-3 mt-1 text-sm">Lorem ipsum peliasdads abacaxigrande laranja.</p>
-                            <div className="flex items-center mt-2 ml-2">
-                                <img src="assets/user.jpg" alt="user" className="h-4 rounded-full mt-2" />
-                                <p className="text-gray-600 mt-1 text-xs ml-2">Taldo Antonio</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="w-80 h-24 px mx-auto flex">
-                        <div className="w-14 h-full">
-                            <p className="font-semibold">8:40</p>
-                        </div>
-
-                        <div className="flex-col">
-                            <div className="w-14 h-4 flex">
-                                <img src="assets/white.png" alt="ball" className="mx-auto rounded-full h-4 w-4 border-4 border-blue-400 mt-1" />
-                            </div>
-                            <div className="w-7 h-24 border-r-2 border-slate-300"></div>
-                        </div>
-                        <div className="w-full h-full flex-col">
-                            <p className="text-gray-600 ml-3 mt-1 text-sm">Lorem ipsum peliasdads abacaxigrande laranja.</p>
-                            <div className="flex items-center mt-2 ml-2">
-                                <img src="assets/user.jpg" alt="user" className="h-4 rounded-full mt-2" />
-                                <p className="text-gray-600 mt-1 text-xs ml-2">Taldo Antonio</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="w-80 h-24 px mx-auto flex">
-                        <div className="w-14 h-full">
-                            <p className="font-semibold">8:40</p>
-                        </div>
-
-                        <div className="flex-col">
-                            <div className="w-14 h-4 flex">
-                                <img src="assets/white.png" alt="ball" className="mx-auto rounded-full h-4 w-4 border-4 border-green-400 mt-1" />
-                            </div>
-                            <div className="w-7 h-24 border-r-2 border-slate-300"></div>
-                        </div>
-                        <div className="w-full h-full flex-col">
-                            <p className="text-gray-600 ml-3 mt-1 text-sm">Lorem ipsum peliasdads abacaxigrande laranja.</p>
-                            <div className="flex items-center mt-2 ml-2">
-                                <img src="assets/user.jpg" alt="user" className="h-4 rounded-full mt-2" />
-                                <p className="text-gray-600 mt-1 text-xs ml-2">Taldo Antonio</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="w-80 h-24 px mx-auto flex">
-                        <div className="w-14 h-full">
-                            <p className="font-semibold">8:40</p>
-                        </div>
-
-                        <div className="flex-col">
-                            <div className="w-14 h-4 flex">
-                                <img src="assets/white.png" alt="ball" className="mx-auto rounded-full h-4 w-4 border-4 border-red-400 mt-1" />
-                            </div>
-                        </div>
-                        <div className="w-full h-full flex-col">
-                            <p className="text-gray-600 ml-3 mt-1 text-sm">Lorem ipsum peliasdads abacaxigrande laranja.</p>
-                            <div className="flex items-center mt-2 ml-2">
-                                <img src="assets/user.jpg" alt="user" className="h-4 rounded-full mt-2" />
-                                <p className="text-gray-600 mt-1 text-xs ml-2">Taldo Antonio</p>
-                            </div>
-                        </div>
-                    </div>
-
-
+            <div className="w-full">
+                <div className="flex-col justify-end bg-white  rounded-lg">
+                    {activities.map((activity, index) => <ItemActivities activity={activity} key={index} />)}
                 </div>
             </div>
         </div>
     )
-} 
+}
+
+
